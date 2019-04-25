@@ -1,3 +1,5 @@
+# Strings and Text
+
 types_of_people = 10
 x = f"There are {types_of_people} types of people."
 
@@ -17,4 +19,4 @@ print(joke_evaluation.format(hilarious))
 
 w = "This is the left side of ..."
 e = "a string with a right side."
-print(w+e)
+print(w + e)
