@@ -1,6 +1,0 @@
-{
-    "editor.fontFamily": "Consolas, 'Microsoft YaHei', monospace",
-    "editor.fontSize": 16,
-    "python.linting.pylintEnabled": true,
-    "python.pythonPath": "E:\\python37\\python.exe",
-}
