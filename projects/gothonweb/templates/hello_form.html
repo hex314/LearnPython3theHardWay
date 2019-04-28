@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sample Web Form</title>
+</head>
+<body>
+{% extends "layout.html" %}
+{% block content %}
+<h1>Fill Out This Form</h1>
+<form action="/hello" method="post">
+    A Greeting: <input type="text" name="greet">
+    <br>
+    Your Name: <input type="text" name="name">
+    <br>
+    <input type="submit">
+    {% endblock %}
+</form>
+</body>
+</html>
